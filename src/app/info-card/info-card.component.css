@@ -1,0 +1,44 @@
+.mat-card {
+    margin: 0 16px 16px 0;
+    width: 250px;
+}
+
+.blue {
+    background-color: #333399;
+}
+
+.red {
+    background-color: #FF0066;
+}
+
+.green {
+    background-color: #339933;
+}
+
+.yellow {
+    background-color: #FF9900;
+}
+
+mat-card-title {
+    font-size: 56px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}
+
+mat-card-subtitle {
+    font-size: 36px;
+    margin-bottom: 0px;
+    color: #999999;
+}
+
+mat-icon {
+    /*padding: 10px;*/
+}
+
+.material-icons.md-100 {
+    font-size: 100px !important;
+    height: 100px !important;
+    width: 100px !important;
+    color: rgba(0,0,0,.24);
+}
