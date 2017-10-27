@@ -10,5 +10,6 @@ export class InfoCardComponent {
   @Input() subTitle = 'Subtitle';
   @Input() icon = 'person';
   @Input() color = 'blue';
-
+  @Input() footer;
+  @Input() header = 'Header';
 }

@@ -1,8 +1,11 @@
 <mat-card [ngClass]="[color]">
-    <mat-card-title-group>
-        <mat-card-title>{{title}}</mat-card-title>
-        <mat-card-subtitle>{{subTitle}}</mat-card-subtitle>
+  <span *ngIf="header" class="header-{{color}}">{{header}}</span>
+  <mat-card-title-group>
+    <mat-card-title class="title">{{title}}</mat-card-title>
+        <mat-card-subtitle class="subtitle subtitle-{{color}}">{{subTitle}}</mat-card-subtitle>
         <mat-icon class="md-100">{{[icon]}}</mat-icon>
     </mat-card-title-group>
+    <mat-card-footer *ngIf="footer">
+        <p>{{footer}}</p>
+    </mat-card-footer>
 </mat-card>
-  
