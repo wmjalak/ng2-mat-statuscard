@@ -1,9 +1,27 @@
 .mat-card {
-    width: 220px;
+    width: 200px;
+    margin-bottom: 10px;
 }
 
 .mat-card span {
     margin: -6px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+
+mat-card-subtitle {
+    position: absolute;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 90%;
+}
+
+mat-icon {
+    position: relative;
+    bottom: 5px;
 }
 
 .blue {
@@ -53,6 +71,7 @@
     font-weight: normal;
     margin-bottom: 0px;
     color: #FFFFFF;
+    padding-top: 4px;
 }
 
 .subtitle {
